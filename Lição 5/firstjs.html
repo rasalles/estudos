@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Meu primeiro JavaScript</h2>
+        <button type="button" onclick="calculo()">Aperte-me</button>
+        <p id="demo"></p>
+        <script>
+            function horario() {
+                document.getElementById('demo').innerHTML = Date();
+            }
+            function calculo(){
+                x=10**3;
+                y=6;
+                z=x+y;
+                window.alert('O valor de z ='+z);
+                document.getElementById('demo').innerHTML = z;
+            }
+        </script>
+    </body>
+</html>

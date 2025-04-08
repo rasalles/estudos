@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="boletim.css">    
+        <meta charset="UTF-8"/>
+        <title>Menu escolar</title>
+        </head>
+    <body>
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>Matérias</th>
+                    <th>1 Bim</th>
+                    <th>2 Bim</th>
+                    <th>3 Bim</th>
+                    <th>4 Bim</th>
+                    <th>Final</th>
+                </tr>
+            </thead>
+        <tbody>
+
+        </tbody>
+        </table>
+        <script>
+           let nossatabela=document.getElementById("tabela").getElementsByTagName("tbody")[0]; 
+           for(let linha=0;linha<5;linha++){
+            let row =nossatabela.insertRow(linha);
+            for(let coluna=0;coluna<=5;coluna++){
+                let cell=row.insertCell(coluna);
+                cell.innerHTML="0";
+            }
+           }
+        </script>
+    </body>
+</html>
