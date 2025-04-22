@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main-title {
+    color: #385555;
+}
+
+.list-wrapper{
+    background-color: white;
+}
